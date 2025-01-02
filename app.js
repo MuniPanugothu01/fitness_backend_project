@@ -59,7 +59,8 @@ router.post("/send/mail", async (req, res) => {
     }
 });
 
-
+// mongodb+srv://munipanugothu2001:PqWSzYwnI5x2MKCX@fitnessdata.kcif8.mongodb.net/usersData
+// mongodb+srv://munipanugothu2001:PqWSzYwnI5x2MKCX@fitnessdata.kcif8.mongodb.net/
 mongoose
     .connect("mongodb+srv://munipanugothu2001:PqWSzYwnI5x2MKCX@fitnessdata.kcif8.mongodb.net/usersData", {
         useNewUrlParser: true,
