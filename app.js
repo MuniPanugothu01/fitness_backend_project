@@ -11,7 +11,7 @@ const app = express(); // app express instance purpose created.
 const router = express.Router(); // this is routing purpose created
 app.use(bodyParser.json());
 app.use(cors({
-    origin: [process.env.FRONTEND_URL],
+    origin: [process.env.FRONTEND_URL,"http://localhost:5173"],
     methods: ["POST"],
     credentials: true,
 })); // this is middle ware. it used to connect front end backend
